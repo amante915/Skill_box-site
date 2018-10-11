@@ -150,12 +150,41 @@ h2 {
 		}
 
 #column-center {
-	background-color: green;
 	width: 420px;
 	margin-left: 20px;
 	float: left;
 }
+.central-news-item {
+	  position: absolute;
+    margin-top: 93px;
+    margin-left: 23px;
+    color: white;
+}
+.headline-central {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+}
+.data-news {
+	font-size: 12px;
+  float: left;
+}
+.time-news{
+	  position: absolute;
+    top: 152px;
+    left: 56px;
+    padding-left: 44px;
+    font-size: 12px;
+    background-image: url(img/clock.png);
+    background-position: center;
+    background-repeat: no-repeat;
 
+}
+h3 {
+	  font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
 #central-container {
 	padding-top: 20px;
 	background-color: #f9f9f9;
@@ -164,7 +193,7 @@ h2 {
 }
 
 #central-container .fixed-container {
-	overflow-y: hidden;
+		overflow-y: hidden;
 }
 
 #column-right {
