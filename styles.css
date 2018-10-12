@@ -207,7 +207,7 @@ h3 {
 	background-repeat: repeat-x;
 }
 .block-central-left {
-	display: block;
+	display: inline-block;
 	position: relative;
 	width: 190px;
 	margin-top: 18px;
