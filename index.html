@@ -1,6 +1,9 @@
+</body>
+</html>
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+	<meta charset="UTF-8">
 	<title>Новостное агентство</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -36,7 +39,8 @@
 	</div>
 	<div id="central-container">
 		<div class="fixed-container">
-			<div id="column-left">
+			<div class="row">
+				<div class="col-3" id="column-left">
 				<h2>Новости дня</h2>
 				<div class="news-item">
 					<div class="news-item-text">
@@ -69,9 +73,10 @@
 					</div>
 				</div>
 			</div>
-			<div id="column-center">
-				<div class="central-container">
-							<div class="central-news-item">
+			<div  class="col-6">
+				<div class="row">
+					<div class="col-12">
+						<div class="central-news-item">
 									<a href="#" class="headline-central">/ Политика</a>
 									<h3 class="news-item2">В Крыму отреагировали<br>
 									на слова Кравчука<br>
@@ -80,7 +85,8 @@
 									<div class="time-news">10:48</div>
 							</div>
 								<img src="img/Layer 2.png" alt="">
-					<div class="block-central-left">
+					</div>
+					<div class="col-6 main-news__item">
 								<img src="img/img-central-left.png" alt="navalniy">
 								<h4>Алексей Навальный объявил акцию против пенсионной реформы 1 июля</h4>
 								<div class="news-item-props">
@@ -89,7 +95,7 @@
 								<div class="news-comments-count-central">15</div>
 								</div>
 					</div>
-					<div class="block-central-right">
+					<div class="col-6 main-news__item">
 								<img src="img/img-central-right.png" alt="duma">
 								<h4>Дума увеличила пошлины за выдачу загранпаспортов и водительских прав</h4>
 								<div class="news-item-props">
@@ -98,7 +104,7 @@
 										<div class="news-comments-count-central">36</div>
 								</div>
 					</div>
-					<div class="block-central-left">
+					<div class="col-6 main-news__item">
 								<img src="img/img-central-left.png" alt="navalniy">
 								<h4>В России заработал стриминговый сервис YouTube</h4>
 								<div class="news-item-props">
@@ -107,7 +113,7 @@
 										<div class="news-comments-count-central">10</div>
 							</div>
 					</div>
-					<div class="block-central-right">
+					<div class="col-6 main-news__item">
 								<img src="img/img-central-left.png" alt="navalniy">
 								<h4>Кейн признан лучшим игроком матча ЧМ-2018 Тунис — Англия</h4>
 								<div class="news-item-props">
@@ -118,10 +124,12 @@
 					</div>
 				</div>
 			</div>
-			<div id="column-right">
+			<div class="col-3">
 				<img src="img/banner-1.png">
 				<img src="img/banner-2.png">
 			</div>
+			</div>
+			
 		</div>
 		<div class="fixed-container">
 			<div id="special-news">
