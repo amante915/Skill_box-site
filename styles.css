@@ -50,7 +50,7 @@ h2 {
     color: #b2b2bb;
 }
 .search {
-	position: relative;
+  position: relative;
   display: block;
   float: right;
   top: 46px;
@@ -207,7 +207,7 @@ h3 {
 	background-repeat: repeat-x;
 }
 .block-central-left {
-	display: block;
+	display:inline-block;
 	position: relative;
 	width: 190px;
 	margin-top: 18px;
